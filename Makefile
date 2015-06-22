@@ -1,6 +1,7 @@
 
 TARGET = iopcmsgbus.elf
 
+CFLAGS += -I$(SDKSTAGE)/usr/include/iopcmsgbus
 CFLAGS += -I$(SDKSTAGE)/usr/include/
 CFLAGS += 
 
