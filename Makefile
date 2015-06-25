@@ -7,11 +7,7 @@ CFLAGS +=
 
 LDFLAGS += -L$(SDKSTAGE)/usr/lib/ 
 LDFLAGS += -lc -lpthread 
-LDFLAGS += -ljansson
 LDFLAGS += -liopcmsgbus
-#LDFLAGS += -ldbus
-
-INCLUDES += 
 
 SRC = 
 SRC += main.c
